@@ -1,0 +1,102 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBuffer>
+  <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="beast_motor_driver_Debug Internal" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="beast_motor_driver_Release Internal" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="beast_motor_driver"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver;Core"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver;Core;Src"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver;usr"/>
+ </Project>
+ <Register1>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Twice a Second">
+   <Watchpoint expression="cmd_csa" name="cmd_csa" radix="-1" linenumber="86" filename="usr/drv.c"/>
+   <Watchpoint expression="cmd_ocpc" name="cmd_ocpc" radix="2" linenumber="88" filename="usr/drv.c"/>
+   <Watchpoint expression="cmd_dcr" name="cmd_dcr" radix="-1" linenumber="111" filename="usr/drv.c"/>
+   <Watchpoint expression="check_ocpc" name="check_ocpc" radix="2" linenumber="256" filename="usr/drv.c"/>
+   <Watchpoint expression="check_csa" name="check_csa" radix="-1" linenumber="260" filename="usr/drv.c"/>
+   <Watchpoint expression="check_dcr" name="check_dcr" radix="-1" linenumber="260" filename="usr/drv.c"/>
+   <Watchpoint expression="current_state" name="current_state" radix="-1" linenumber="492" filename="usr/fsm.c"/>
+   <Watchpoint expression="encoders_handle_" name="encoders_handle_" radix="-1" linenumber="9" filename="usr/encoders.c"/>
+   <Watchpoint expression="initialized" name="initialized" radix="-1" linenumber="541" filename="usr/fsm.c"/>
+   <Watchpoint expression="fsm_drv_h" name="fsm_drv_h" radix="-1" linenumber="471" filename="usr/fsm.c"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="63" useTextEdit="1" path="usr/pi_regulators.c" left="0" top="42" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="10" useTextEdit="1" path="usr/motor_config.h" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="303" useTextEdit="1" path="usr/fsm.c" left="0" top="294" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="77" y="57" useTextEdit="1" path="usr/status_monitor.c" left="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="92" useTextEdit="1" path="usr/svpwm.c" left="0" top="75" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="128" useTextEdit="1" path="usr/calibrator.c" left="0" top="107" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="33" y="25" useTextEdit="1" path="usr/calibrator.h" left="0" top="4" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="107" y="133" useTextEdit="1" path="usr/encoders.c" left="0" top="112" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="52" y="32" useTextEdit="1" path="usr/csine_cordic.c" left="0" top="11" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="11" useTextEdit="1" path="usr/config.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="usr/can_handler.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="13" useTextEdit="1" path="usr/csine_cordic.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="usr/can_handler.h" left="0" top="20" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="43" useTextEdit="1" path="usr/encoders.h" left="0" top="22" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="21" useTextEdit="1" path="usr/config.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="9" useTextEdit="1" path="usr/flash_writer.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="7" y="18" useTextEdit="1" path="usr/flash_writer.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="usr/error_status.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="24" useTextEdit="1" path="usr/pi_regulators.h" left="0" top="12" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="beast_motor_driver" fileDialogDefaultFilter="*.h" autoConnectTarget="J-Link" buildConfiguration="Release Internal" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="E:/STM32EMBEDEDSTUDIO_PROJECT/FOC_1/Usr" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
