@@ -1,0 +1,9 @@
+struct usb_data_t
+{
+    float chip1_data[30]; // 6 motors, 5 commands each
+    int32_t chip1_flg[1];
+    float chip2_data[30]; // 6 motors, 5 commands each
+    int32_t chip2_flg[1];
+    float chip3_data[30]; // 6 motors, 5 commands each
+    int32_t chip3_flg[1];
+}
